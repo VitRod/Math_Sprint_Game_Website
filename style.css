@@ -45,3 +45,8 @@
     justify-content: center;
     align-items: center;
   }
+
+  .card {
+    margin: 5px auto 10px;
+    height: 600px;
+  }
