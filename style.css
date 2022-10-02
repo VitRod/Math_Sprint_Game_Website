@@ -21,3 +21,14 @@
     background: #e8e8e8;
     background-image: url(bg.png);
   }
+
+  .game-container {
+    border: 1px solid black;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
+    width: 530px;
+    height: 750px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.5);
+    user-select: none;
+    margin-top: 100px;
+  }
