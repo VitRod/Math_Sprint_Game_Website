@@ -32,3 +32,16 @@
     user-select: none;
     margin-top: 100px;
   }
+
+  .header {
+    background: var(--primary-color);
+    color: white;
+    font-family: Oxanium, sans-serif;
+    font-size: 24px;
+    text-shadow: 1px 2px 2px black;
+    letter-spacing: 2px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
