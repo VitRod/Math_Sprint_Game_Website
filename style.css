@@ -3,3 +3,10 @@
 * {
   box-sizing: border-box;
 }
+
+:root {
+    --primary-color: #557571;
+    --select-color: #d49a89;
+    --success: #f7d1ba;
+    --danger: rgb(228, 112, 112);
+  }
