@@ -10,3 +10,14 @@
     --success: #f7d1ba;
     --danger: rgb(228, 112, 112);
   }
+
+  body {
+    margin: 0;
+    font-family: 'Staatliches', cursive;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: #e8e8e8;
+    background-image: url(bg.png);
+  }
