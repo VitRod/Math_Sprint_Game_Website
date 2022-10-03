@@ -142,3 +142,17 @@ input[type="radio"] {
     margin: 0 50px;
     user-select: none;
   }
+
+  .finished > h1 {
+    opacity: 0.5;
+  }
+  
+  .selected-item {
+    background: var(--select-color);
+    position: fixed;
+    top: 443px;
+    z-index: -1;
+    width: 529px;
+    height: 80px;
+  }
+  
