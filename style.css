@@ -170,4 +170,23 @@ input[type="radio"] {
 .item-footer {
   top: 1px;
 }
+
+button {
+  cursor: pointer;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 25px;
+  font-family: Oxanium, sans-serif;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  filter: brightness(110%);
+}
+
+button:active {
+  transform: scale(0.99);
+}
   
