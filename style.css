@@ -87,3 +87,23 @@ input[type="radio"] {
     background: var(--select-color);
     color: white;
   }
+
+  .best-score {
+    position: relative;
+    top: -100px;
+    left: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    max-width: fit-content;
+  }
+  
+  .best-score span {
+    margin: 0;
+  }
+  
+  .best-score span:last-child {
+    font-size: 24px;
+  }
