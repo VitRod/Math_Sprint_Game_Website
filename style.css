@@ -189,4 +189,24 @@ button:hover {
 button:active {
   transform: scale(0.99);
 }
+
+.wrong,
+.right {
+  width: 40%;
+}
+
+.wrong {
+  background: var(--danger);
+  margin-right: 25px;
+}
+
+.right {
+  background: var(--success);
+}
+
+.start,
+.play-again {
+  width: 90%;
+  background: var(--primary-color);
+}
   
