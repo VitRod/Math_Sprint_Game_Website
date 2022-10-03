@@ -122,3 +122,23 @@ input[type="radio"] {
     height: 500px;
     width: 100%;
   }
+
+  .item-container {
+    height: 552px;
+    overflow-y: scroll;
+    position: relative;
+    -ms-overflow-style: none;
+  }
+  
+  .item-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .item {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    height: 80px;
+    margin: 0 50px;
+    user-select: none;
+  }
