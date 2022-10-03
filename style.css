@@ -18,8 +18,8 @@
     display: flex;
     justify-content: center;
     height: 100vh;
-    background: #e8e8e8;
-    background-image: url(bg.png);
+    /* background: #e8e8e8; */
+    background-image: url(bg1.jpg);
   }
 
   .game-container {
