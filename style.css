@@ -155,4 +155,19 @@ input[type="radio"] {
     width: 529px;
     height: 80px;
   }
+
+  .item-footer,
+.selection-footer {
+  width: 100%;
+  height: 90px;
+  background: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.item-footer {
+  top: 1px;
+}
   
