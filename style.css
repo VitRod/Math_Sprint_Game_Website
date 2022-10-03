@@ -75,3 +75,15 @@ input[type="radio"] {
     border: 2px solid black;
     border-radius: 5px;
   }
+
+  label {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+  }
+  
+  .selected-label {
+    background: var(--select-color);
+    color: white;
+  }
