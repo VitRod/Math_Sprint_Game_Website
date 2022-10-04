@@ -237,7 +237,16 @@ button:active {
   top: -30px;
 }
 
+.title {
+  font-size: 45px;
+}
 
+.final-time {
+  font-size: 100px;
+  margin: 0;
+  color: var(--success);
+  text-shadow:5px 5px 2px #557571;
+}
 
 
 
