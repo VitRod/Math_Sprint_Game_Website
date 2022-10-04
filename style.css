@@ -257,7 +257,16 @@ button:active {
   color: var(--danger);
 }
 
+/* Media Query: Laptop */
+@media screen and (max-width: 1800px) {
+  .game-container {
+    margin-top: 35px;
+  }
 
+  .selected-item {
+    top: 380px;
+  }
+}
 
 
 
