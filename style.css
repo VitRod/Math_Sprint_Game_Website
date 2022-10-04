@@ -248,7 +248,14 @@ button:active {
   text-shadow:5px 5px 2px #557571;
 }
 
+.base-time {
+  margin-top: 100px;
+  margin-bottom: 0;
+}
 
+.penalty-time {
+  color: var(--danger);
+}
 
 
 
