@@ -219,7 +219,14 @@ button:active {
   cursor: pointer;
 }
 
-
+/* Score Page ------------------------- */
+.score-container {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
