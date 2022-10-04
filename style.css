@@ -268,6 +268,51 @@ button:active {
   }
 }
 
+/* Media Query: Large Smartphone (Vertical) */
+@media screen and (max-width: 500px) {
+  .game-container {
+    width: 100%;
+    margin-top: 0;
+    border: none;
+  }
+
+  .selected-item {
+    top: 345px;
+  }
+
+  .header {
+    font-size: 1.2rem;
+  }
+
+  .countdown {
+    margin-top: 60%;
+  }
+
+  .selection-container {
+    top: 100px;
+  }
+
+  .radio-container {
+    width: 93%;
+    margin: 15px;
+  }
+
+  label {
+    font-size: 1.7rem;
+  }
+  .final-time {
+    font-size: 50px;
+  }
+  .best-score {
+    font-size: 1rem;
+    left: 245px;
+  }
+
+  .selection-footer {
+    top: 183px;
+  }
+}
+
 
 
 
