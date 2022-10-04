@@ -313,7 +313,12 @@ button:active {
   }
 }
 
-
+/* Media Query: iPhone */
+@media screen and (max-width: 376px) {
+  .best-score {
+    left: 232px;
+  }
+}
 
 
 
