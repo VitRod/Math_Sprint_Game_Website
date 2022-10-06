@@ -96,7 +96,15 @@ function playAgain() {
   playAgainBtn.hidden = true;
 }
 
-
+// Show Score Page
+function showScorePage() {
+  // Show Play Again button after 1 second delay
+  setTimeout(() => {
+    playAgainBtn.hidden = false;
+  }, 1000);
+  gamePage.hidden = true;
+  scorePage.hidden = false;
+}
 
 
 
