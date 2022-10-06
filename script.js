@@ -18,6 +18,11 @@ const baseTimeEl = document.querySelector('.base-time');
 const penaltyTimeEl = document.querySelector('.penalty-time');
 const playAgainBtn = document.querySelector('.play-again');
 
+// Equations
+let questionAmount = 0;
+let equationsArray = [];
+let playerGuessArray = [];
+let bestScoreArray = [];
 
 
 
