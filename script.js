@@ -38,7 +38,8 @@ let penaltyTime = 0;
 let finalTime = 0;
 let finalTimeDisplay = '0.0';
 
-
+// Scroll
+let valueY = 0;
 
 
 
