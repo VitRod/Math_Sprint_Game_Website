@@ -49,7 +49,21 @@ function bestScoresToDOM() {
     });
   }
 
-
+// Check Local Storage for Best Scores, Set bestScoreArray
+function getSavedBestScores() {
+    if (localStorage.getItem('bestScores')) {
+      bestScoreArray = JSON.parse(localStorage.bestScores);
+    } else {
+      bestScoreArray = [
+        { questions: 10, bestScore: finalTimeDisplay },
+        { questions: 25, bestScore: finalTimeDisplay },
+        { questions: 50, bestScore: finalTimeDisplay },
+        { questions: 99, bestScore: finalTimeDisplay },
+      ];
+      localStorage.setItem('bestScores', JSON.stringify(bestScoreArray));
+    }
+    bestScoresToDOM();
+  }
 
 
 
