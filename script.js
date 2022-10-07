@@ -140,7 +140,11 @@ function checkTime() {
   }
 }
 
-
+// Add a tenth of a second to timePlayed
+function addTime() {
+  timePlayed += 0.1;
+  checkTime();
+}
 
 
 
