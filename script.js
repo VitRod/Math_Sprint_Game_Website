@@ -285,5 +285,25 @@ function showCountdown() {
   // setTimeout(showGamePage, 4000);
 }
 
+// Get the value from selected radio button
+function getRadioValue() {
+  let radioValue;
+  radioInputs.forEach((radioInput) => {
+    if (radioInput.checked) {
+      radioValue = radioInput.value;
+    }
+  });
+  return radioValue;
+}
+
+
+
+
+
+
+
+
+
+
 
 
