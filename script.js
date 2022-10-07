@@ -296,7 +296,15 @@ function getRadioValue() {
   return radioValue;
 }
 
-
+// Form that decides amount of Questions
+function selectQuestionAmount(e) {
+  e.preventDefault();
+  questionAmount = getRadioValue();
+  console.log('question amount:', questionAmount);
+  if (questionAmount) {
+      showCountdown();
+  }
+}
 
 
 
